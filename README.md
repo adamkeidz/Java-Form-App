@@ -12,7 +12,7 @@ This repository contains a Java application that uses the Swing library to creat
 
 - Town auto-population from Postcode: The application reads a CSV file of postcodes and associated towns, storing this data in a HashMap. When a postcode is entered, the corresponding town is auto-populated in the Town field.
 
-- Database connection: The form data is saved into a MySQL database called Insudb, specifically into a table called clients. The application establishes a database connection using JDBC.
+- Database connection: The form data is saved into a MySQL database, specifically into a table called clients. The application establishes a database connection using JDBC.
 
 ## Dependencies
 
@@ -29,7 +29,7 @@ Please ensure that these dependencies are properly configured and included in yo
 
 To run the application successfully, you may need to configure the following:
 
-- MySQL database: Ensure you have a MySQL database named Insudb. Update the database connection details (username, password, etc.) in the application code as needed.
+- MySQL database: Ensure you have a MySQL database. Update the database connection details (username, password, etc.) in the application code as needed.
 
 - CSV file: Prepare a CSV file with postcodes and associated towns, which will be used for town auto-population. Update the file path or name in the application code if necessary.
 
@@ -42,10 +42,13 @@ Example:
 1. Clone the repository:
 
    ```shell
-   $ git clone https://github.com/adamkeidz/java-stuffs/java-app.git
+   git clone https://github.com/adamkeidz/java-stuffs/java-app.git
+   ```
    
 2. Open the project in your preferred Java IDE.
 
 3. Build and compile the project.
 
 4. Run the application.
+
+---
